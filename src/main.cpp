@@ -26,6 +26,9 @@ void setup() {
   datos::ini(2,250);
   pinMode(LED_BUILTIN,OUTPUT);
   contador.reset();
+
+  Serial.begin(9600);
+  Serial.println("Probando Serial...");
  
   //Reset();
   //cont=(uint32_t)(~millis())+1UL; //el tamño del 1 depende del dispositivo que se use, por eso se usa 1UL para aclarar que es unsigned long
