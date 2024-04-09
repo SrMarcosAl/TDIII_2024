@@ -3,6 +3,7 @@
 #include "class_timer.h"
 #include "led_task.h"
 TIMER contador;
+// comentario para probar git 
 void encendido()
 {
    digitalWrite(LED_BUILTIN,HIGH);
